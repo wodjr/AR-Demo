@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F018B5822AF49040038B0E5 /* HarryPotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2F018B5722AF49040038B0E5 /* HarryPotter.mp4 */; };
 		2F2F2B29228FCE210056D677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2F2B28228FCE210056D677 /* AppDelegate.swift */; };
 		2F2F2B2B228FCE210056D677 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F2F2B2A228FCE210056D677 /* art.scnassets */; };
 		2F2F2B2D228FCE210056D677 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2F2B2C228FCE210056D677 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F018B5722AF49040038B0E5 /* HarryPotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarryPotter.mp4; sourceTree = "<group>"; };
 		2F2F2B25228FCE210056D677 /* i4studio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = i4studio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F2F2B28228FCE210056D677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F2F2B2A228FCE210056D677 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		2F2F2B27228FCE210056D677 /* i4studio */ = {
 			isa = PBXGroup;
 			children = (
+				2F018B5722AF49040038B0E5 /* HarryPotter.mp4 */,
 				2F2F2B28228FCE210056D677 /* AppDelegate.swift */,
 				2F2F2B2A228FCE210056D677 /* art.scnassets */,
 				2F2F2B2C228FCE210056D677 /* ViewController.swift */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F2F2B2B228FCE210056D677 /* art.scnassets in Resources */,
+				2F018B5822AF49040038B0E5 /* HarryPotter.mp4 in Resources */,
 				2F2F2B35228FCE220056D677 /* LaunchScreen.storyboard in Resources */,
 				2F2F2B32228FCE220056D677 /* Assets.xcassets in Resources */,
 				2F2F2B30228FCE210056D677 /* Main.storyboard in Resources */,
@@ -293,7 +297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.i4studio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.HarryPotter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,7 +315,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.i4studio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.HarryPotter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
